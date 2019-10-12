@@ -1,8 +1,8 @@
-# Market-Analysis-2
+# Market-Analysis-3
 
 ### Overview
 
-In Market Analysis 3 we change its component to improve performance and speed, plus that we merge all the component in two main programes Analyzer and Applier.
+In Market Analysis 3 we change its component to improve performance and speed, plus that we merge all the component in two main programes Analyzer and Applier, Also add a lot of Mobility for Analyzing the market.
 
 # Analyzer Components
 
@@ -51,15 +51,19 @@ Different Machine Learning models that we used to learn from the [Feature](#Feat
 
 ## Testing
 
-Tool that use to test the strategy that has been developed outside MQL4 in python.
+Use to backtest a strategy that based on the prediction of the Models from any period of time.
 
 #### How we do it
 * We do it by build our algorithmic trading strategy in python.
-* And load our Models in Tester program.
-* Then calculate the profits by saving the enter price then subtract from it the close price.
+* And load our Models in Tester component.
+* Then calculate the profits by saving the enter price and the Action then subtract from it the close price and subtract the spreed.
 
 #### Algorithmic Trading
-We call the models (Decision Tree and RandomForest) every one hour and say if the first 10 min is the same prediction do the predicted action.
+The advantage of Market-Analysis-3 is the mobility and in Algorithmic Trading we can have more the one Algorithm till now i add two algorithm:
+##### Algo_1
+
+##### Algo_2
+
 #### What we test
 1. Profit
 1. Total number of trades
