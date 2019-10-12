@@ -77,7 +77,7 @@ Enter : if all is equal in NTime and NTime+1 then do the action.
 Hold : if not equal.
 
 Close : if all equal in the opesit side.
-#### What we test
+#### What we test ?
 1. Profit
 1. Total number of trades
 1. Sum of wining trades
