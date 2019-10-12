@@ -60,15 +60,22 @@ Use to backtest a strategy that based on the prediction of the Models from any p
 
 #### Algorithmic Trading
 The advantage of Market-Analysis-3 is the mobility and in Algorithmic Trading we can have more the one Algorithm till now i add two algorithm:
-##### Algo_1
+* Algo_1
 Called every NTime see the prediction:
+
 Enter : if all is equal then do the action.
+
 Hold : if not equal.
+
 Close : if all equal in the opesit side.
-##### Algo_2
+
+* Algo_2
 Called every NTime and NTime+1 see the prediction:
+
 Enter : if all is equal in NTime and NTime+1 then do the action.
+
 Hold : if not equal.
+
 Close : if all equal in the opesit side.
 #### What we test
 1. Profit
