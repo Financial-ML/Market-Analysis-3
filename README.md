@@ -68,3 +68,5 @@ We call the models (Decision Tree and RandomForest) every one hour and say if th
 1. Max drawdown
 1. Best trade
 
+# Applier Components
+
