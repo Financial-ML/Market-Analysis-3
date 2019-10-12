@@ -4,7 +4,7 @@
 
 In Market Analysis 3 we change its component to improve performance and speed, plus that we merge all the component in two main programes Analyzer and Applier.
 
-## Analyzer Components
+# Analyzer Components
 
 * [Dataset](#Dataset)
 
@@ -15,7 +15,7 @@ In Market Analysis 3 we change its component to improve performance and speed, p
 * [Tester](#Tester)
 
 
-### Dataset
+## Dataset
 
 Pull the Dataset for any symbol in any period of time in Forex market that contain the basic Features
 (open, high, low, close).
@@ -24,7 +24,7 @@ Pull the Dataset for any symbol in any period of time in Forex market that conta
 We do it by using fxcm python library (PYFXCM).
 
    
-### Feature-Calculator
+## Feature-Calculator
 
 In Feature-Calculator we calculate the machine learning Feature based on this research [(here)](http://www.wseas.us/e-library/conferences/2011/Penang/ACRE/ACRE-05.pdf).
 
@@ -33,7 +33,7 @@ In Feature-Calculator we calculate the machine learning Feature based on this re
 * It based on the main Features [Dataset](#Dataset) and some functions in this research [(here)](http://www.wseas.us/e-library/conferences/2011/Penang/ACRE/ACRE-05.pdf)..
 
 
-### ML-Models
+## ML-Models
 
 Different Machine Learning models that we used to learn from the [Feature](#Feature-Calculator).
 
@@ -49,7 +49,7 @@ Different Machine Learning models that we used to learn from the [Feature](#Feat
 * Support vector machine.
 * Neural-network-MLPClassifier.
 
-### Testing
+## Testing
 
 Tool that use to test the strategy that has been developed outside MQL4 in python.
 
